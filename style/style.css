@@ -2092,10 +2092,6 @@ footer.directionsPageFooter{
     display: flex;
 }
 
-.study-plan .text-block{
-    
-}
-
 .study-plan .text-block p.title{
     font-family: 'Roboto';
     font-style: normal;
@@ -2300,11 +2296,11 @@ footer.directionsPageFooter{
     font-size: 18px;
     line-height: 26px;
     color: #000000;
-    margin-bottom: 15px;
 }
 
 .study-plan .info2 .text-block ul{
     margin-left: 100px;
+    margin-top: 15px;
 }
 
 .study-plan .info2 .text-block ul li:before{
@@ -2879,6 +2875,10 @@ footer.employees-page-footer .studio .dot{
         padding: 0;
     }
 
+    header.not-main.directionsPage{
+        padding-bottom: 20px;
+    }
+
 
 
 
@@ -3098,10 +3098,6 @@ footer.employees-page-footer .studio .dot{
 
 
     /* ________OUR-ACHIEVEMENT_____________________ */
-
-    .our-achievement{
-
-    }
 
     .our-achievement .our-achievement-wrapper{
         max-width: 768px;
@@ -3964,7 +3960,251 @@ footer.employees-page-footer .studio .dot{
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _________STUDY-PLAN__________________________________ */
+
+.study-plan{
+    max-width: 768px;
+    width: 97%;
+    margin-top: 35px;
 }
+
+.study-plan span.title {
+    font-size: 70px;
+    line-height: 82px;
+    margin-left: 40px;
+    text-shadow: 
+            -0   -1px 0   #FE0000,
+             0   -1px 0   #FE0000,
+            -0    1px 0   #FE0000,
+             0    1px 0   #FE0000,
+            -1px -0   0   #FE0000,
+             1px -0   0   #FE0000,
+            -1px  0   0   #FE0000,
+             1px  0   0   #FE0000,
+            -1px -1px 0   #FE0000,
+             1px -1px 0   #FE0000,
+            -1px  1px 0   #FE0000,
+             1px  1px 0   #FE0000,
+            -1px -1px 0   #FE0000,
+             1px -1px 0   #FE0000,
+            -1px  1px 0   #FE0000,
+             1px  1px 0   #FE0000;
+             margin-bottom: 0;
+}
+
+.study-plan .info1 {
+    margin-top: 35px;
+    margin-left: 76px;
+}
+
+.study-plan .text-block span {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.study-plan .text-block p.first {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.study-plan .text-block p{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+.study-plan .text-block p.title {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.study-plan .text-block ul{
+    margin-left: 38px;
+    margin-bottom: 35px;
+}
+
+.study-plan .text-block ul li {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.study-plan .text-block p.last {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.study-plan .text-block p.dop {
+    width: 373px;
+    margin-top: 15px;
+}
+
+.study-plan .text-block ul.dop {
+    margin-left: 38px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.study-plan .text-block ul.dop li{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.study-plan .img-block .line-border {
+    width: 238px;
+    height: 344px;
+    top: -19px;
+    left: 60px;
+}
+
+.study-plan .img-block img.first {
+    margin-bottom: 12px;
+    width: 221px;
+    height: 148px;
+}
+
+.study-plan .img-block img{
+    width: 221px;
+    height: 148px;
+}
+
+.study-plan .img-block{
+    margin-left: 38px;
+    margin-top: 90px;
+}
+
+
+.study-plan .quote {
+    width: 402px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 60px;
+}
+
+.study-plan .quote img.mark1{
+    width: 53px;
+    height: 44px;
+    left: -37px;
+    top: -23px;
+}
+
+.study-plan .quote img.mark2{
+    width: 53px;
+    height: 44px;
+    bottom: -31px;
+    right: -47px;
+}
+
+
+.study-plan .info2 {
+    margin-top: 61px;
+    margin-left: 61px;
+    display: flex;
+}
+
+.study-plan .info2 .img-block img.first {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.study-plan .info2 .img-block {
+    margin-right: 46px;
+    position: relative;
+    width: 371px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.study-plan .info2 .img-block .line-border {
+    width: 238px;
+    height: 344px;
+    top: 15px;
+    left: -92px;
+}
+
+.study-plan .info2 .text-block p {
+    font-size: 12px;
+    line-height: 14px;
+    width: 369px;
+    margin-bottom: 0;
+}
+
+.study-plan .info2 .text-block ul {
+    margin-left: 43px;
+}
+
+.study-plan .info2 .text-block ul.last {
+    margin-bottom: 0;
+}
+
+.study-plan .text-block ul li {
+    position: relative;
+}
+
+.study-plan .info2 .text-block ul li:before {
+    position: absolute;
+    left: -20px;
+    font-size: 32px;
+}
+
+.study-plan .text-block ul li{
+    position: relative;
+}
+.study-plan .text-block ul.dop li{
+    position: relative;
+}
+
+.study-plan .text-block ul li:before {
+    font-size: 32px;
+    left: -20px;
+    position: absolute;
+}
+
+.study-plan .text-block ul.dop li:before {
+    font-size: 32px;
+    left: -20px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
 
 
 

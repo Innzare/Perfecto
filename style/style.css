@@ -2210,6 +2210,14 @@ footer.directionsPageFooter{
     z-index: -1;
 }
 
+.study-plan .info1 img.study-plan-mobile{
+    display: none;
+}
+
+.study-plan .info2 img.study-plan-mobile{
+    display: none;
+}
+
 
 
 
@@ -4959,6 +4967,96 @@ footer.employees-page-footer .studio .dot{
         margin-right: 20px;
         margin-bottom: 50px;
     }
+
+
+
+
+
+
+
+
+
+
+
+    /* _______STUDY_PLAN____________________ */
+
+.study-plan {
+    max-width: 320px;
+    width: 97%;
+    margin-top: 30px;
+}
+
+.study-plan span.title {
+    margin-left: 20px;
+    font-size: 32px;
+    line-height: 37px;
+    
+}
+
+.study-plan .info1 {
+    margin-top: 30px;
+    margin-left: 12px;
+}
+
+.study-plan .text-block p.dop {
+    width: 320px;
+}
+
+.study-plan .text-block ul {
+    margin-left: 24px;
+}
+
+.study-plan .info1 img.study-plan-mobile{
+    display: block;
+}
+
+.study-plan .info1 img.study-plan-mobile.first{
+    margin-bottom: 30px;
+    margin-left: -12px;
+}
+
+.study-plan .img-block {
+    display: none;
+}
+
+.study-plan .text-block ul.dop {
+    margin-bottom: 50px;
+}
+
+.study-plan .quote {
+    width: 320px;
+    margin-left: 10px;
+}
+
+.study-plan .quote img.mark1 {
+    left: 9px;
+    top: -39px;
+}
+
+.study-plan .quote img.mark2 {
+    bottom: -31px;
+    right: 7px;
+}
+
+.study-plan .info2 {
+    width: 320px;
+    margin-top: 53px;
+    margin-left: 12px;
+}
+
+
+.study-plan .info2 img.study-plan-mobile{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.study-plan .info2 .text-block ul {
+    margin-left: 25px;
+}
+
+footer.studyPlan{
+    margin-top: 40px;
+}
     
 
 

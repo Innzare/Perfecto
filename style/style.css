@@ -2890,6 +2890,12 @@ footer.employees-page-footer .studio .dot{
 
 
 
+    header .header-wrapper .head-menu-list {
+        height: 350px;
+    }
+
+
+
 
 
 
@@ -4316,7 +4322,13 @@ footer.employees-page-footer .studio .dot{
         transition: 0.3s;
     }
 
-
+    header .header-wrapper .head-menu-list .container .b1 {
+        width: 37px;
+        height: 2px;
+        background-color: #ffffff;
+        margin: 9px 0;
+        transition: 0.3s;
+    }
 
 
 

@@ -2642,6 +2642,7 @@ footer.employees-page-footer{
     margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 70px;
+    display: flex;
 }
 
 footer.employees-page-footer .footer-wrapper{
@@ -4213,6 +4214,14 @@ footer.employees-page-footer .studio .dot{
 
 
 
+@media screen and (max-width: 892px){
+    .employee-info .employees-wrapper .for-future {
+        width: 590px;
+    }
+}
+
+
+
 
 
 
@@ -5057,8 +5066,100 @@ footer.employees-page-footer .studio .dot{
 footer.studyPlan{
     margin-top: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* _____EMPLOYEES-PAGE________________________________ */
+
+.employee-info .employees-wrapper {
+    max-width: 320px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.employee-info .employees-wrapper .employee-cont img.employee-page-icon {
+    display: none;
+}
+
+.employee-info .employees-wrapper img{
+    width: 267px;
+    height: 332px;
+}
+
+.employee-info .employees-wrapper .employee-cont img.rodionova {
+    height: 332px;
+    margin-right: 0;
+    margin-left: 27px;
+}
+
+.employee-info .employees-wrapper .employee-cont {
+    flex-direction: column;
+}
+
+.employee-info .employees-wrapper .btn-back {
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+.employee-info .employees-wrapper .employee-cont .employee-img-block {
+    height: 332px;
+    margin-bottom: 20px;
+}
+
+.employee-info .employees-wrapper .for-future {
+    width: 296px;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 22px;
+}
+
+.employee-info .employees-wrapper .employee-cont .text-block{
+    margin-left: 12px;
+}
+
+.employee-info .employees-wrapper .employee-cont .text-block p.name {
+    font-size: 14px;    
+    line-height: 16px;
+}
+
+.employee-info .employees-wrapper .employee-cont .text-block p.pos {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.employee-info .employees-wrapper .employee-cont .text-block p.exp {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.employee-info .employees-wrapper .employee-cont .text-block ul li {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.employee-info .employees-wrapper .employee-cont .text-block ul li:before {
+    font-size: 24px;
+}
+
+.employee-info .employees-wrapper .employee-cont .text-block .about-myself {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 30px;
+}
     
 
 
-
 }
+

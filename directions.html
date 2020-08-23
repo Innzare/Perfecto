@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <title>Perfecto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <header class="not-main directionsPage">
+        <div class="header-wrapper">
+            <ul>
+                <li><a href="./main.html">О НАС</a></li>
+                <li><a href="./our_team.html">ТРЕНЕРЫ</a></liclass="active">
+                <li class="active"><a href="./directions.html">НАПРАВЛЕНИЯ И ЦЕНЫ</a></li>
+                <li><a href="./study_plan.html">УЧЕБНЫЙ ПЛАН</a></li>
+                <li><a href="./contacts.html">КОНТАКТЫ</a></li>
+                <li class="last"><a href="">ЛИЧНЫЙ КАБИНЕТ</a></li>
+            </ul>
+
+            <div class="logo">
+                <a href="./main.html"><img src="./img/not-main-logo.png" alt=""></a>
+            </div>
+
+            <div class="personal">
+                <img src="./img/icons/mobile.svg" alt="">
+                <div class="num">
+                    904 21 42
+                </div>
+                <div class="head-menu open">
+                    <div class="container" onclick="burgerListOpen(this)">
+                        <div class="b1"></div>
+                        <div class="b2"></div>
+                        <div class="b3"></div>
+                    </div>
+                </div>
+
+                <div class="head-menu-list">
+
+                    <div class="container" onclick="burgerListClose(this)">
+                        <div class="b1"></div>
+                        <div class="b2"></div>
+                        <div class="b3"></div>
+                    </div>
+
+                    <ul class="head-menu-ul">
+                        <li><a href="./main.html">О нас</a></li>
+                        <li><a href="./our_team.html">Тренеры</a></li>
+                        <li><a href="./directions.html">Направления и цены</a></li>
+                        <li><a href="./study_plan.html">Учебный план</a></li>
+                        <li><a href="./contacts.html">Контакты</a></li>
+                        <li><a href="">Личный кабинет</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="variants">
+        <span class="title">НАПРАВЛЕНИЯ</span>
+
+        <div class="dance-show">
+
+            <div class="img-block">
+                <div class="line-border"></div>
+                <img src="./img/directions/dance-show-direction.jpg" alt="">
+                <div class="sign-up">
+                    <div class="sign-up-text">
+                        <p class="sign-up">ЗАПИШИСЬ НА ПЕРВОЕ БЕСПЛАТНОЕ ЗАНЯТИЕ</p>
+                        <span class="sign-up">И наши замечательные тренеры помогут понять
+                            что подходит именно вашему ребёнку
+                        </span>
+                    </div>
+                    <img src="./img/icons/sign-up-btn.svg" alt="">
+                </div>
+            </div>
+
+            <div class="text-block">
+                <span class="dance-showTitle">ТАНЦЕВАЛЬНОЕ ШОУ</span>
+                <p class="question">ДЛЯ КОГО?</p>
+                <span class="answ first">Это направление для тех, кто считает себя настоящим профессионалом и всегда
+                    стремится добиться большего.
+                </span>
+                <p class="question">КАК ПРОИСХОДИТ ОБУЧЕНИЕ?</p>
+                <span class="answ">Именно для таких детей мы увеличили количество тренировок
+                    и их продолжительность, включили в учебную программу дополнительные уроки акробатики, классической
+                    хореографии
+                    и актерского мастерства. Евгения Яковлева лично проводит тренировки у всех групп Танцевального шоу,
+                    а так же создаёт новые номера. Дети регулярно принимают участие во всеросийских и междунардных
+                    соревнованиях.
+                    Чтобы попасть в группы Танцевального Шоу, дети проходят отбор, а те, кто уже занимается –
+                    обязательную ежегодную аттестацию.</span>
+            </div>
+
+        </div>
+        <div class="dance-show-lvls">
+            <span>Внутри направления «Танцевальное шоу» мы разделили детей по уровню подготовки, чтобы ребенок
+                чувствовал себя комфортно
+                и получал подходящую для него нагрузку.
+            </span>
+            <div class="lvls">
+                <div class="base card">
+                    <p class="title">Базовая</p>
+                    <p class="desc">
+                        Дети без подготовки,
+                        рассматривают танцы как
+                        полезное хобби, хотят танцевать
+                        для себя.
+                    </p>
+                    <p class="desc">
+                        3 раза в неделю 1 час – 1,5 часа
+                        (зависит от возраста)
+                    </p>
+                    <p class="desc last">
+                        Годовой благотворительный взнос
+                        500 рублей
+                    </p>
+                    <span class="price">4000 РУБЛЕЙ В МЕСЯЦ</span>
+                </div>
+                <div class="progress card">
+                    <p class="title">Прогресс</p>
+                    <p class="desc">
+                        Дети с базовой подготовкой или
+                        без подготовки, но с хорошими
+                        данными.
+                    </p>
+                    <p class="desc">
+                        Занятия 3 раза в неделю по 2 часа
+                    </p>
+                    <p class="desc last">
+                        Годовой благотворительный взнос
+                        500 рублей
+                    </p>
+                    <span class="price">4500 РУБЛЕЙ В МЕСЯЦ</span>
+                </div>
+                <div class="prof card last">
+                    <p class="title">Профи</p>
+                    <p class="desc">
+                        Дети от 5 до 8 лет с хорошими
+                        данными без опыта, но готовые
+                        к повышенным нагрузкам, с 8 лет
+                        только при наличии спортивного
+                        опыта.
+                    </p>
+                    <p class="desc">
+                        Занятия 4 раза в неделю по 3 часа
+                    </p>
+                    <p class="desc last">
+                        Годовой благотворительный взнос
+                        1000 рублей
+                    </p>
+                    <span class="price">5500 РУБЛЕЙ В МЕСЯЦ</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hip-hop">
+
+            <div class="img-block">
+                <div class="line-border"></div>
+                <img src="./img/directions/hip-hop-direction.jpg" alt="">
+                <div class="sign-up">
+                    <div class="sign-up-text">
+                        <p class="sign-up">ЗАПИШИСЬ НА ПЕРВОЕ БЕСПЛАТНОЕ ЗАНЯТИЕ</p>
+                        <span class="sign-up">И наши замечательные тренеры помогут понять
+                            что подходит именно вашему ребёнку
+                        </span>
+                    </div>
+                    <img src="./img/icons/sign-up-btn.svg" alt="">
+                </div>
+            </div>
+
+            <div class="text-block">
+                <span class="hip-hopTitle">HIP-HOP</span>
+                <p class="question">ДЛЯ КОГО?</p>
+                <span class="answ first">
+                    Hip-Hop помогает детям выразить свои чувства и эмоции, заявить о своей
+                    самостоятельности и найти друзей близких
+                    по интересам. Это целая субкультура со своей атмосферой
+                    и понятиями. Модная, современная и очень спортивная.
+                </span>
+                <p class="question">КАК ПРОИСХОДИТ ОБУЧЕНИЕ?</p>
+                <span class="answ">Наши тренеры являются профессионалами в этом деле.
+                    Кроме многолетнего тренерского опыта они сами танцевали
+                    в лучших питерских командах, а некоторые танцуют до сих пор.
+                </span>
+            </div>
+
+        </div>
+        <div class="hip-hop-lvls">
+            <span>Внутри направления «Танцевальное шоу» мы разделили детей по уровню подготовки, чтобы ребенок
+                чувствовал себя комфортно
+                и получал подходящую для него нагрузку.
+            </span>
+            <div class="lvls">
+                <div class="base card">
+                    <p class="title">Базовая</p>
+                    <p class="desc">
+                        Дети без подготовки,
+                        рассматривают танцы как
+                        полезное хобби, хотят танцевать
+                        для себя.
+                    </p>
+                    <p class="desc">
+                        3 раза в неделю 1 час – 1,5 часа
+                        (зависит от возраста)
+                    </p>
+                    <p class="desc last">
+                        Годовой благотворительный взнос
+                        500 рублей
+                    </p>
+                    <span class="price">4000 РУБЛЕЙ В МЕСЯЦ</span>
+                </div>
+                <div class="progress card">
+                    <p class="title">Прогресс</p>
+                    <p class="desc">
+                        Дети с базовой подготовкой или
+                        без подготовки, но с хорошими
+                        данными.
+                    </p>
+                    <p class="desc">
+                        Занятия 3 раза в неделю по 2 часа
+                    </p>
+                    <p class="desc last">
+                        Годовой благотворительный взнос
+                        500 рублей
+                    </p>
+                    <span class="price">4500 РУБЛЕЙ В МЕСЯЦ</span>
+                </div>
+                <div class="prof card last">
+                    <p class="title">Профи</p>
+                    <p class="desc">
+                        Дети от 5 до 8 лет с хорошими
+                        данными без опыта, но готовые
+                        к повышенным нагрузкам, с 8 лет
+                        только при наличии спортивного
+                        опыта.
+                    </p>
+                    <p class="desc">
+                        Занятия 4 раза в неделю по 3 часа
+                    </p>
+                    <p class="desc last">
+                        Годовой благотворительный взнос
+                        1000 рублей
+                    </p>
+                    <span class="price">5500 РУБЛЕЙ В МЕСЯЦ</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mini">
+
+            <div class="img-block">
+                <div class="line-border"></div>
+                <img src="./img/directions/mini-direction.jpg" alt="">
+                <div class="sign-up">
+                    <div class="sign-up-text">
+                        <p class="sign-up">ЗАПИШИСЬ НА ПЕРВОЕ БЕСПЛАТНОЕ ЗАНЯТИЕ</p>
+                        <span class="sign-up">И наши замечательные тренеры помогут понять
+                            что подходит именно вашему ребёнку
+                        </span>
+                    </div>
+                    <img src="./img/icons/sign-up-btn.svg" alt="">
+                </div>
+            </div>
+
+            <div class="text-block">
+                <span class="miniTitle">МИНИ</span>
+                <p class="question">ДЛЯ КОГО?</p>
+                <span class="answ first">
+                    Детский танец – это лучшее решение вопроса, куда направить энергию активного ребенка. Танцы в раннем
+                    возрасте по-настоящему полезны, помогают развить чувство ритма, координацию и физические данные,
+                    ребенок учится преодолевать себя и трудности.
+                    Становится более коммуникабельным и гармоничным во всех отношениях.
+                </span>
+                <p class="question">КАК ПРОИСХОДИТ ОБУЧЕНИЕ?</p>
+                <span class="answ">
+                    Опытные педагоги работают с небольшими группами детей
+                    по авторской методике. На тренировках дети занимаются ритмикой, растяжкой и делают полезные
+                    упражнения, адаптированные для самых маленьких.
+                </span>
+                <p class="price">Стоимость абонемента на месяц от 3 500 до 4 000 рублей в зависимости от филлиала</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <footer class="directionsPageFooter">
+        <div class="social">
+            <a href="#" class="inst">INSTAGRAM</a>
+            <div class="dot"></div>
+            <a href="#" class="vk">VKONTAKTE</a>
+            <div class="dot"></div>
+            <a href="#" class="youtube">YOUTUBE</a>
+            <div class="dot"></div>
+            <span class="number">902 21 42</span>
+        </div>
+        <div class="studio">
+            <span>PERFECTO</span>
+            <div class="dot"></div>
+            <span>Детская танцевальная студия Евгении Яковлевой</span>
+            <div class="dot"></div>
+            <span>Санкт-Петербург</span>
+        </div>
+    </footer> -->
+
+    <footer class="directionsPageFooter">
+        <div class="social">
+            <a href="#" class="inst">INSTAGRAM</a>
+            <div class="dot"></div>
+            <a href="#" class="vk">VKONTAKTE</a>
+            <div class="dot"></div>
+            <a href="#" class="youtube">YOUTUBE</a>
+            <div class="dot last"></div>
+            <span class="number">902 21 42</span>
+        </div>
+        <div class="studio">
+            <span>PERFECTO</span>
+            <div class="dot"></div>
+            <span>Детская танцевальная студия Евгении Яковлевой</span>
+            <div class="dot"></div>
+            <span>Санкт-Петербург</span>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./script/slick.min.js"></script>
+    <script type="text/javascript" src="./script/script.js"></script>
+</body>
+
+</html>

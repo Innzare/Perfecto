@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <title>Perfecto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <header class="main">
+        <div class="header-wrapper">
+            <ul>
+                <li class="active"><a href="./main.html">О НАС</a></li>
+                <li><a href="./our_team.html">ТРЕНЕРЫ</a></li>
+                <li><a href="./directions.html">НАПРАВЛЕНИЯ И ЦЕНЫ</a></li>
+                <li><a href="./study_plan.html">УЧЕБНЫЙ ПЛАН</a></li>
+                <li class="last"><a href="./contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+
+            <div class="logo">
+                <a href="./main.html"><img src="./img/main-768px/logo-320px.png" alt=""></a>
+            </div>
+
+            <div class="personal">
+                <span>ЛИЧНЫЙ КАБИНЕТ</span>
+                <img src="./img/icons/mobile.svg" alt="">
+                <div class="num">
+                    904 21 42
+                </div>
+            </div>
+
+            <div class="head-menu">
+                <div class="container" onclick="burgerListOpen(this)">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                </div>
+            </div>
+
+            <div class="head-menu-list">
+
+                <div class="container" onclick="burgerListClose(this)">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                </div>
+
+                <ul class="head-menu-list">
+                    <li><a href="./main.html">О нас</a></li>
+                    <li><a href="./our_team.html">Тренеры</a></li>
+                    <li><a href="./directions.html">Направления и цены</a></li>
+                    <li><a href="./study_plan.html">Учебный план</a></li>
+                    <li><a href="./contacts.html">Контакты</a></li>
+                    <li><a href="">Личный кабинет</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="logo">
+            <img src="./img/Logo.png" alt="">
+            <span>ТАНЦЕВАЛЬНАЯ СТУДИЯ ЕВГЕНИИ ЯКОВЛЕВОЙ</span>
+        </div>
+
+    </header>
+
+    <div class="first-session">
+        <div class="first-session-wrapper">
+            <div class="left-side">
+                <span class="title">ПЕРВОЕ ЗАНЯТИЕ БЕСПЛАТНО</span>
+                <span>Наши замечательные тренеры помогут
+                    понять что подходит именно вашему
+                    ребёнку
+                </span>
+                <div class="btn">
+                    <span>ЗАПИСАТЬСЯ</span>
+
+                    <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="49" height="49" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0" transform="scale(0.01)" />
+                            </pattern>
+                            <image id="image0" width="100" height="100"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAADWElEQVR4Xu3d4VaDMAwFYPb+D61n8zAZA3KbJmkTrn8NlN6PtDLdfCyJvn6W5UdzuY9leWiOG3HMtBeqDR8NcVakaUC8ASSoWYCGg4yG2EONhhkCMhvCWfeMwAkFyQIxsmtCQLJCjIBxB6mCseJ4L2NuINUgorrFBaQ6hme3mILcBcKzW8xA7oph3S0mIHfHsETpBiHG5wLW+1NYFwgxjp/xe1DUIMS4frlSi6ICIYb02vHf9zUozSDEwDC0G30TCDHaMDQoMAgxdBitKATpyxk+Gt1PIBB2B5z7ZSGCIoIQwwYDXboIYpu3eDapSy5B2B1ivqqCK5RTEGKosoYPOkNJCyK1/uw3VBPI7JNBXpbIOofDDsk6me16kXUOXyAZJlKlQ47mQRB4G/Yp3O8lBPHJuemsW5QPkCzLVaUlaz8XgjTdyz7Fhx2SqTuqdch2Pu8OIYjP3Y+ede0SgqCJOdcRxDng1tN/gGRbriruIeucXksWQVrvZ5/6Z5cQxCdb1VkJoorN7yCC+GWrOvMLJOP+UXVTf82LIKqb2e0ggrhFqztxGIj0O3Dd5ccdFbWSEAQ0JQgYVFQZQaKSBschCBhUVBlBopIGxyEIGFRUGUGikgbHKQcCzhsuk55rogKELxgsDHsOAa8HLiMIHFVMYVmQZ3wZ27siCH8fEtPM8CgEgaOKKSRITM7wKASBo4opfINk3Nirber8y8WYmx4ehSBwVDGFBInJGR7lCyTbPlJpD+Fb2uD7NqaQIDE5Q6PwXbhQTHFFBInLGhpJBMmyuVfY1I/mwM86ge5jnyIYJEOXZO+Qs+tP+3lZPvds3FmbQTJ0SVx8tiNddTc/BNM2a/Fs0lJLEDFC24JuEC5ddiASxnMksUPWy8n4lyl2UfafCcEgSH/O8BnMQbh0wdl/FaIYTR3CpUsH0oKhAmGn4DCtGGoQosgoGowuEKKco2gxukGI8o3Sg2ECQpR/lF4MMxCi6P5n4dGiBz+py9tYzveZIPOSaiw6Yx3DFORuzyqWEK4gd1jCPDBM95Cztq72oqQXhHuHbIGqoHhjhHRIBZgIiNAO2S9nWTomEmIoyOxdMwJiGpBZflQeibC9QV2eQ6QHKeT73svaLAD7LKYFOULTIs0a/tEcfwHWvyhYdNmxfQAAAABJRU5ErkJggg==" />
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="directions">
+        <div class="directions-wrapper">
+            <div class="title"><span>НАПРАВЛЕНИЯ</span></div>
+            <div class="direction-vars cards">
+                <div class="dance-show card">
+                    <div class="dance-showCont">
+                        <span class="for">ДЛЯ ДЕТЕЙ ОТ 4 ЛЕТ</span>
+                        <img src="./img/dance-show.jpg" alt="">
+                        <span class="title">ТАНЦЕВАЛЬНОЕ
+                            ШОУ
+                        </span>
+                        <span>Самое престижное танцевальное направление в современном мире.
+                            Профессионалы в этой сфере
+                            могут танцевать что угодно, от балета до hip-hop.
+                        </span>
+                    </div>
+                </div>
+                <div class="hip-hop card">
+                    <div class="hip-hopCont">
+                        <span class="for">ДЛЯ ДЕТЕЙ ОТ 4 ЛЕТ</span>
+                        <img src="./img/hip-hop.jpg" alt="">
+                        <span class="title">HIP-HOP</span>
+                        <span>Это целая субкультура со своей атмосферой и понятиями.
+                            Модная, современная и очень спортивная.
+                        </span>
+                    </div>
+                </div>
+                <div class="mini card">
+                    <div class="miniCont">
+                        <span class="for">ДЛЯ ДЕТЕЙ ОТ 2.5 ЛЕТ</span>
+                        <img src="./img/mini.jpg" alt="">
+                        <span class="title">МИНИ</span>
+                        <span>Мини - лучшее время для подготовки к большому спорту!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-achievement">
+        <div class="our-achievement-wrapper">
+            <span class="title">НАШИ ДОСТИЖЕНИЯ</span>
+            <div class="videos">
+                <div class="one video">
+                    <img src="./img/one.jpg" alt="">
+                    <div class="text">Бронзовые призёры <br> на Чемпионате Мира 2019</div class="text">
+                </div>
+                <div class="two video">
+                    <img src="./img/two.jpg" alt="">
+                    <div class="text">Чемпионы Европы <br> 2019, 2018, 2017</div>
+                </div>
+                <div class="three video">
+                    <img src="./img/three.jpg" alt="">
+                    <div class="text">Чемпионы России <br> 2019, 2018, 2015</div>
+                </div>
+                <div class="four last video">
+                    <img src="./img/four.jpg" alt="">
+                    <div class="text">Победители во Всемирной Танцевальной Олимпиаде <br> 2019, 2018</div>
+                </div>
+
+            </div>
+            <div class="logos">
+                <img src="./img/ido.jpg" alt="" class="ido">
+                <img src="./img/samson.jpg" alt="" class="samson">
+                <img src="./img/opto-ardo.jpg" alt="" class="last opto">
+            </div>
+        </div>
+    </div>
+
+    <div class="our-pluses">
+        <div class="first-block">
+            <div class="line-border"></div>
+            <img src="./img/pluses1.jpg" alt="">
+            <div class="text-block">
+                Помимо спортивных результатов, танцы помогают
+                детям иметь хорошую осанку, растяжку, красивую
+                походку, чувство ритма и дарят хорошее настроение.
+                <img src="./img/icons/logo-icon.svg" alt="">
+            </div>
+        </div>
+        <div class="second-block">
+            <div class="text-block">
+                Мы стремимся сделать детский спорт более доступным и интересным,
+                каждый год мы устраиваем фотосессии и съемки в танцевальных
+                видеоклипах. В течение года проводятся мастер-классы, посещение
+                театров и общение со знаменитыми спортсменами и танцорами.
+                <p>Вы можете посмотреть наш ежегодный большой</p>
+                <a href="#">отчетный концерт</a>.
+            </div>
+            <img src="./img/main-768px/our-pluses.png" alt="">
+        </div>
+    </div>
+
+    <div class="why-we">
+        <span class="title">ПОЧЕМУ МЫ?</span>
+        <div class="first-block">
+            <div class="text-block">
+                <p class="one">Опытные педагоги</p>
+                <span class="one">У всех педагогов имеется необходимое образование, а так
+                    же богатый опыт в танцевальной сфере и работе с детьми.
+                </span>
+                <p class="two">Просторные залы</p>
+                <span class="two">Все тренировки проходят в специально подготовленных помещениях.
+                    Высокие потолки и большие залы позволяют безопасно и эффективно проводить занятия.
+                </span>
+                <p class="three">Доступная цена</p>
+                <span class="three last">Для нас очень важно, чтобы детский спорт был доступен каждому.
+                    Стоимость занятий от 3500 руб. и зависит
+                    от выбранного направления и типа группы.
+                </span>
+            </div>
+            <img src="./img/why-we1.jpg" alt="">
+        </div>
+        <div class="second-block">
+            <div class="img-block">
+                <div class="line-border"></div>
+                <img src="./img/why-we2.jpg" alt="" class="one">
+                <img src="./img/why-we3.jpg" alt="" class="two">
+            </div>
+            <div class="text-block">
+                <p class="one">Увеличенное время тренировок</p>
+                <span class="one">Правильное использование дополнительного времени позволяет
+                    быстрее достигать желаемых результатов.
+                    Тренировки длятся от одного до трех часов, и проводятся
+                    три и более дней в неделю, это зависит от выбранного направления и типа группы.
+                </span>
+                <p class="two">Профессиональное оборудование</p>
+                <span class="two">Мы используем специальные атрибуты и оборудование
+                    на каждой тренировке. Для проведения уроков акробатики используется специально подготовленный зал
+                    с профессиональным покрытием, обеспечивающим безопасность на высшем уровне.
+                </span>
+                <p class="three">Достойные результаты</p>
+                <span class="three">Наши достижения говорят
+                    сами за себя. Мы не раз становились победителями крупнейших российских и международных соревнований,
+                    проводимых ведущими организаторами, такими как ОРТО, IDO, САМСОН и другие.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <div class="about-us-wrapper">
+            <img src="./img/icons/about-us-icon.svg" alt="" class="svg1">
+            <span class="title">О СТУДИИ</span>
+            <div class="about-usCont">
+                <div class="first-block">
+                    <img src="./img/about-us1.jpg" alt="">
+                    <div class="text-block">
+                        Детская Танцевальная Студия Евгении Яковлевой PERFECTO основана в 2011 году.
+                        На сегодняшний день мы тренируем более 700 детей в трёх филиалах в разных
+                        районах Санкт-Петербурга.
+                        Мы делаем детский спорт более доступным и интересным! Для этого постоянно повышаем уровень
+                        квалификации педагогов, разработали уникальную систему тренировок, участвуем в самых масштабных
+                        и престижных танцевальных мероприятиях, которые проходят по всему Миру! Устраиваем фотосессии и
+                        съемки в танцевальных видеоклипах, проводим мастер-классы, посещение театров и общение со
+                        знаменитыми спортсменами и танцорами.
+                        Благодаря этому, большинство наших юнных воспитаников являются призерами
+                        и финалистами самых престижных соревнований региона, страны и Европы!
+                    </div>
+                    <img src="./img/icons/about-us-icon2.svg" alt="" class="svg2">
+                </div>
+                <div class="second-block">
+                    <img src="./img/about-us2.png" alt="">
+                    <div class="text-block">
+                        <p>ПЕРВОЕ ЗАНЯТИЕ</p>
+                        <p>БЕСПЛАТНО</p>
+                        <span>
+                            Наши замечательные тренеры помогут
+                            понять что подходит именно вашему
+                            ребёнку
+                        </span>
+                        <div class="btn">
+                            ЗАПИСАТЬСЯ
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="49" height="49" fill="url(#pattern0)" />
+                                <defs>
+                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0" transform="scale(0.01)" />
+                                    </pattern>
+                                    <image id="image0" width="100" height="100"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAADWElEQVR4Xu3d4VaDMAwFYPb+D61n8zAZA3KbJmkTrn8NlN6PtDLdfCyJvn6W5UdzuY9leWiOG3HMtBeqDR8NcVakaUC8ASSoWYCGg4yG2EONhhkCMhvCWfeMwAkFyQIxsmtCQLJCjIBxB6mCseJ4L2NuINUgorrFBaQ6hme3mILcBcKzW8xA7oph3S0mIHfHsETpBiHG5wLW+1NYFwgxjp/xe1DUIMS4frlSi6ICIYb02vHf9zUozSDEwDC0G30TCDHaMDQoMAgxdBitKATpyxk+Gt1PIBB2B5z7ZSGCIoIQwwYDXboIYpu3eDapSy5B2B1ivqqCK5RTEGKosoYPOkNJCyK1/uw3VBPI7JNBXpbIOofDDsk6me16kXUOXyAZJlKlQ47mQRB4G/Yp3O8lBPHJuemsW5QPkCzLVaUlaz8XgjTdyz7Fhx2SqTuqdch2Pu8OIYjP3Y+ede0SgqCJOdcRxDng1tN/gGRbriruIeucXksWQVrvZ5/6Z5cQxCdb1VkJoorN7yCC+GWrOvMLJOP+UXVTf82LIKqb2e0ggrhFqztxGIj0O3Dd5ccdFbWSEAQ0JQgYVFQZQaKSBschCBhUVBlBopIGxyEIGFRUGUGikgbHKQcCzhsuk55rogKELxgsDHsOAa8HLiMIHFVMYVmQZ3wZ27siCH8fEtPM8CgEgaOKKSRITM7wKASBo4opfINk3Nirber8y8WYmx4ehSBwVDGFBInJGR7lCyTbPlJpD+Fb2uD7NqaQIDE5Q6PwXbhQTHFFBInLGhpJBMmyuVfY1I/mwM86ge5jnyIYJEOXZO+Qs+tP+3lZPvds3FmbQTJ0SVx8tiNddTc/BNM2a/Fs0lJLEDFC24JuEC5ddiASxnMksUPWy8n4lyl2UfafCcEgSH/O8BnMQbh0wdl/FaIYTR3CpUsH0oKhAmGn4DCtGGoQosgoGowuEKKco2gxukGI8o3Sg2ECQpR/lF4MMxCi6P5n4dGiBz+py9tYzveZIPOSaiw6Yx3DFORuzyqWEK4gd1jCPDBM95Cztq72oqQXhHuHbIGqoHhjhHRIBZgIiNAO2S9nWTomEmIoyOxdMwJiGpBZflQeibC9QV2eQ6QHKeT73svaLAD7LKYFOULTIs0a/tEcfwHWvyhYdNmxfQAAAABJRU5ErkJggg==" />
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback">
+        <span class="title">ОТЗЫВЫ</span>
+        <div class="slider">
+            <div><img src="./img/feedback/fb1.jpg" alt=""></div>
+            <div><img src="./img/feedback/fb2.jpg" alt=""></div>
+            <div><img src="./img/feedback/fb3.jpg" alt=""></div>
+            <div><img src="./img/feedback/fb4.jpg" alt=""></div>
+            <div><img src="./img/feedback/fb3.jpg" alt=""></div>
+            <div><img src="./img/feedback/fb4.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <div class="adresses">
+        <span class="title">АДРЕСА</span>
+        <div class="adresses-cont">
+            <div class="text-block">
+                <p class="one">Коменданский</p>
+                <span class="one">
+                    Санкт-Петербург, Долгоозерная 14 к2
+                    (ТРК Пять Озер)</span>
+                <p class="two">Парнас</p>
+                <span class="two">
+                    Санкт-Петербург, Фёдора Абрамова 6
+                    (СОШ №482)</span>
+                <p class="three">Ленинский</p>
+                <span class="three last">
+                    Санкт-Петербург, Ленинский 90</span>
+            </div>
+            <div class="map">
+                <div class="line-border"></div>
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad9cde021c1d1d4b231a19d18ce7fe2e8afe619ea1ca125a880b96b64d1ba0fe8&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social">
+            <a href="#" class="inst">INSTAGRAM</a>
+            <div class="dot"></div>
+            <a href="#" class="vk">VKONTAKTE</a>
+            <div class="dot"></div>
+            <a href="#" class="youtube">YOUTUBE</a>
+            <div class="dot last"></div>
+            <span class="number">902 21 42</span>
+        </div>
+        <div class="studio">
+            <span>PERFECTO</span>
+            <div class="dot"></div>
+            <span>Детская танцевальная студия Евгении Яковлевой</span>
+            <div class="dot"></div>
+            <span>Санкт-Петербург</span>
+        </div>
+    </footer>
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./script/slick.min.js"></script>
+    <script type="text/javascript" src="./script/script.js"></script>
+</body>
+
+</html>

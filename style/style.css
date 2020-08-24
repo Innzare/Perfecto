@@ -1683,7 +1683,12 @@ header.directionsPage{
     margin-bottom: 30px;
 }
 
-.variants .dance-show-lvls .lvls .card p.desc{
+.variants .dance-show-lvls .lvls .card ul{
+    list-style: none;
+}
+
+.variants .dance-show-lvls .lvls .card li.desc{
+    position: relative;
     display: flex;
     margin-bottom: 10px;
     font-family: 'Roboto';
@@ -1692,10 +1697,20 @@ header.directionsPage{
     font-size: 18px;
     line-height: 26px;
     color: #000000;
+    margin-left: 10px;
 }
 
-.variants .dance-show-lvls .lvls .card p.last{
-    margin-bottom: 0;
+.variants .dance-show-lvls .lvls .card li.desc:before{
+    position: absolute;
+    content: "\2022";
+    left: -20px;
+    width: 10px;
+    height: 10px; 
+    color: #FE0000; 
+    font-size: 38px;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 30px;
 }
 
 .variants .dance-show-lvls .lvls .card span.price{
@@ -1874,7 +1889,12 @@ header.directionsPage{
     margin-bottom: 30px;
 }
 
-.variants .hip-hop-lvls .lvls .card p.desc{
+.variants .hip-hop-lvls .lvls .card ul{
+    list-style: none;
+}
+
+.variants .hip-hop-lvls .lvls .card li.desc{
+    position: relative;
     display: flex;
     margin-bottom: 10px;
     font-family: 'Roboto';
@@ -1883,10 +1903,20 @@ header.directionsPage{
     font-size: 18px;
     line-height: 26px;
     color: #000000;
+    margin-left: 10px;
 }
 
-.variants .hip-hop-lvls .lvls .card p.last{
-    margin-bottom: 0;
+.variants .hip-hop-lvls .lvls .card li.desc:before{
+    position: absolute;
+    content: "\2022";
+    left: -20px;
+    width: 10px;
+    height: 10px; 
+    color: #FE0000; 
+    font-size: 38px;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 30px;
 }
 
 .variants .hip-hop-lvls .lvls .card span.price{
@@ -4202,6 +4232,429 @@ footer.employees-page-footer .studio .dot{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* _____DIRECTIONS-PAGE______________________________ */
+
+.variants {
+    max-width: 768px;
+}
+
+.variants span.title {
+    font-size: 70px;
+    line-height: 82px;
+    margin-top: 35px;
+    margin-left: 40px;
+    text-shadow: 
+            -0   -1px 0   #FE0000,
+             0   -1px 0   #FE0000,
+            -0    1px 0   #FE0000,
+             0    1px 0   #FE0000,
+            -1px -0   0   #FE0000,
+             1px -0   0   #FE0000,
+            -1px  0   0   #FE0000,
+             1px  0   0   #FE0000,
+            -1px -1px 0   #FE0000,
+             1px -1px 0   #FE0000,
+            -1px  1px 0   #FE0000,
+             1px  1px 0   #FE0000,
+            -1px -1px 0   #FE0000,
+             1px -1px 0   #FE0000,
+            -1px  1px 0   #FE0000,
+             1px  1px 0   #FE0000;
+}
+
+.variants .dance-show {
+    margin-left: 0px;
+    margin-top: 64px;
+}
+
+.variants .dance-show .img-block .line-border {
+    width: 437px;
+    height: 241px;
+    top: -17px;
+    left: -87px;
+}
+
+.variants .dance-show .img-block img {
+    width: 389px;
+    height: 207px;
+}
+
+.variants .dance-show .img-block .sign-up {
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+.variants .dance-show .img-block p.sign-up {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.variants .dance-show .img-block span.sign-up {
+    font-size: 12px;
+    line-height: 15px;
+    width: 276px;
+}
+
+.variants .dance-show .img-block .sign-up img {
+    width: 28px;
+    height: 28px;
+}
+
+.variants .dance-show .img-block .sign-up .sign-up-text {
+    width: 276px;
+}
+
+.variants .dance-show .text-block span.dance-showTitle {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+
+.variants .dance-show .text-block p.question {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.variants .dance-show .text-block span.answ {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+.variants .dance-show-lvls {
+    margin-top: 45px;
+    margin-left: 57px;
+}
+
+.variants .dance-show-lvls span {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.variants .dance-show-lvls .lvls {
+    margin-top: 16px;
+}
+
+.variants .dance-show-lvls .lvls .card {
+    padding-top: 22px;
+    padding-left: 19px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+}
+
+.variants .dance-show-lvls .lvls .card p.title {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+
+.variants .dance-show-lvls .lvls .card li.desc {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.variants .dance-show-lvls .lvls .card li.last {
+    margin-bottom: 0;
+}
+
+.variants .dance-show-lvls .lvls .card li.desc:before {
+    font-size: 24px;
+    left: -15px;
+}
+
+.variants .dance-show-lvls .lvls .card span.price {
+    font-size: 12px;
+    line-height: 20px;
+    bottom: 28px;
+}
+
+.variants .dance-show-lvls .lvls .card {
+    width: 216.97px;
+    height: 275.55px;
+}
+
+
+
+
+
+
+
+.variants .hip-hop {
+    margin-top: 92px;
+    margin-left: 0;
+}
+
+.variants .hip-hop .img-block .line-border {
+    width: 437.41px;
+    height: 242.49px;
+    top: -17px;
+    left: -87px;
+}
+
+.variants .hip-hop .img-block img {
+    width: 389.26px;
+    height: 207.68px;
+}
+
+.variants .hip-hop .img-block{
+    margin-right: 30px;
+}
+
+.variants .hip-hop .img-block .sign-up {
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+.variants .hip-hop .img-block p.sign-up {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.variants .hip-hop .img-block span.sign-up {
+    font-size: 12px;
+    line-height: 15px;
+    width: 276px;
+}
+
+.variants .hip-hop .img-block .sign-up img {
+    width: 28px;
+    height: 28px;
+}
+
+.variants .hip-hop .img-block .sign-up .sign-up-text {
+    width: 276px;
+}
+
+.variants .hip-hop .text-block span.hip-hopTitle {
+    font-size: 24.3651px;
+    line-height: 29px;
+    margin-bottom: 23px;
+}
+
+.variants .hip-hop .text-block p.question {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+}
+
+.variants .hip-hop .text-block span.answ {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.variants .hip-hop .text-block span.answ.first {
+    margin-bottom: 30px;
+}
+
+.variants .hip-hop-lvls {
+    margin-left: 57px;
+    margin-top: 46px;
+}
+
+.variants .hip-hop-lvls span {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.variants .hip-hop-lvls .lvls {
+    margin-top: 17px;
+}
+
+
+
+
+
+
+.variants .hip-hop-lvls .lvls .card {
+    padding-top: 22px;
+    padding-left: 19px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+}
+
+.variants .hip-hop-lvls .lvls .card p.title {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+
+.variants .hip-hop-lvls .lvls .card li.desc {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.variants .hip-hop-lvls .lvls .card li.last {
+    margin-bottom: 0;
+}
+
+.variants .hip-hop-lvls .lvls .card li.desc:before {
+    font-size: 24px;
+    left: -15px;
+}
+
+.variants .hip-hop-lvls .lvls .card span.price {
+    font-size: 12px;
+    line-height: 20px;
+    bottom: 28px;
+}
+
+.variants .hip-hop-lvls .lvls .card {
+    width: 216.97px;
+    height: 275.55px;
+}
+
+
+
+/* ________________________________________ */
+
+
+
+.variants .mini {
+    margin-top: 92px;
+    margin-left: 0;
+}
+
+.variants .mini .img-block .line-border {
+    width: 437.41px;
+    height: 242.49px;
+    top: -17px;
+    left: -87px;
+}
+
+.variants .mini .img-block img {
+    width: 389.26px;
+    height: 207.68px;
+}
+
+.variants .mini .img-block{
+    margin-right: 30px;
+}
+
+.variants .mini .img-block .sign-up {
+    margin-left: 46px;
+    margin-top: 40px;
+    width: 343px;
+}
+
+.variants .mini .img-block p.sign-up {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.variants .mini .img-block span.sign-up {
+    font-size: 12px;
+    line-height: 15px;
+    width: 276px;
+}
+
+.variants .mini .img-block .sign-up img {
+    width: 28px;
+    height: 28px;
+}
+
+.variants .mini .img-block .sign-up .sign-up-text {
+    width: 276px;
+    margin-right: 10px;
+}
+
+.variants .mini .text-block span.miniTitle {
+    font-size: 24.3651px;
+    line-height: 29px;
+    margin-bottom: 23px;
+}
+
+.variants .mini .text-block p.question {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+}
+
+.variants .mini .text-block span.answ {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.variants .mini .text-block span.answ.first {
+    margin-bottom: 30px;
+}
+
+.variants .mini-lvls {
+    margin-left: 57px;
+    margin-top: 46px;
+}
+
+.variants .mini-lvls span {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.variants .mini-lvls .lvls {
+    margin-top: 17px;
+}
+
+
+
+
+
+
+.variants .mini-lvls .lvls .card {
+    padding-top: 22px;
+    padding-left: 19px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+}
+
+.variants .mini-lvls .lvls .card p.title {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+
+.variants .mini-lvls .lvls .card li.desc {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.variants .mini-lvls .lvls .card li.last {
+    margin-bottom: 0;
+}
+
+.variants .mini-lvls .lvls .card li.desc:before {
+    font-size: 24px;
+    left: -15px;
+}
+
+.variants .mini-lvls .lvls .card span.price {
+    font-size: 12px;
+    line-height: 20px;
+    bottom: 28px;
+}
+
+.variants .mini-lvls .lvls .card {
+    width: 216.97px;
+    height: 275.55px;
+}
+
+.variants .mini .text-block p.price {
+    font-size: 14px;
+    line-height: 12px;
+}
 
 
 

@@ -5080,6 +5080,8 @@ footer.employees-page-footer .studio .dot{
 
     .our-achievement .our-achievement-wrapper .videos .video img{
         margin-right: 20px;
+        width: 154px;
+        height: 84px;
     }
 
     .our-achievement .our-achievement-wrapper .videos .text {
@@ -5112,7 +5114,8 @@ footer.employees-page-footer .studio .dot{
 
     .our-pluses {
         margin-top: 30px;
-        width: 320px;
+        max-width: 320vw;
+        width: 100%;
     }
 
     .our-pluses .first-block .line-border {
@@ -5128,15 +5131,14 @@ footer.employees-page-footer .studio .dot{
     }
 
     .our-pluses .first-block .text-block {
-        margin-top: 15px;
+        margin: 15px auto 0;
         line-height: 16px;
         width: 234px;
         height: 64px;
     }
 
     .our-pluses .first-block img {
-        width: 320px;
-        height: 155px;
+        width: 100%;
     }
 
     .our-pluses .second-block {
@@ -5146,17 +5148,15 @@ footer.employees-page-footer .studio .dot{
     }
 
     .our-pluses .second-block .text-block {
-        margin-top: 15px;
+        margin: 15px auto 0;
         width: 261px;
         height: 144px;
         order: 1;
         line-height: 16px;
-        margin-left: 43px;
     }
 
     .our-pluses .second-block img {
-        width: 320px;
-        height: 155px;
+        width: 100%;
     }
 
 
@@ -5171,15 +5171,15 @@ footer.employees-page-footer .studio .dot{
 
 
     .why-we {
-        max-width: 320px;
-        width: 97%;
+        max-width: 320vw;
+        width: 100%;
         margin: 70px auto 0;
     }
 
     .why-we span.title {
         font-size: 32px;
         line-height: 37px;
-        margin-left: 30px;
+        margin-left: 70px;
     }
 
     .why-we .first-block {
@@ -5188,13 +5188,12 @@ footer.employees-page-footer .studio .dot{
     }
 
     .why-we .first-block img {
-        width: 320px;
-        height: 212px;
-        margin-top: 30px;
+        width: 100%;
+        height: 100%;
     }
 
     .why-we .first-block .text-block {
-        margin-left: 30px;
+        margin: 0px auto 30px;
     }
 
     .why-we .second-block .img-block .line-border {
@@ -5213,19 +5212,18 @@ footer.employees-page-footer .studio .dot{
 
 
     .why-we .second-block .img-block img.one {
-        width: 320px;
-        height: 213px;
+        width: 100%;
+        height: 100%;
     }
 
     .why-we .second-block .img-block img.two {
-        width: 320px;
-        height: 213px;
+        width: 100%;
+        height: 100%;
     }
 
     .why-we .second-block .text-block {
         width: 269px;
-        margin-top: 30px;
-        margin-left: 30px;
+        margin: 30px auto;
     }
 
 
@@ -5253,20 +5251,20 @@ footer.employees-page-footer .studio .dot{
     }
 
     .about-us .about-us-wrapper {
-        max-width: 320px;
-        width: 97%;
+        max-width: 320vw;
+        width: 100%;
         padding-top: 50px;
     }
 
     .about-us .about-us-wrapper span.title {
         font-size: 32px;
         line-height: 37px;
-        margin-left: 30px;
+        margin-left: 70px;
     }
 
     .about-us .about-us-wrapper .about-usCont .first-block img {
-        width: 320px;
-        height: 320px;
+        width: 100%;
+        height: 100%;
     }
 
     .about-us .about-us-wrapper .about-usCont .first-block {
@@ -5276,9 +5274,8 @@ footer.employees-page-footer .studio .dot{
     .about-us .about-us-wrapper .about-usCont .first-block .text-block {
         width: 298px;
         height: 304px;
-        margin-top: 30px;
+        margin: 30px auto;
         line-height: 16px;
-        margin-left: 0;
         padding: 0 16px;
     }
 
@@ -5293,9 +5290,9 @@ footer.employees-page-footer .studio .dot{
     .about-us .about-us-wrapper .about-usCont .second-block {
         background: url('./../img/main-768px/about-us.png');
         background-repeat: no-repeat;
-        background-size: inherit;
-        background-position: left;
-        width: 320px;
+        background-size: cover;
+        background-position: center;
+        max-width: 320vw;
         height: 566px;
     }
 

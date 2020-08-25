@@ -5526,12 +5526,16 @@ footer.employees-page-footer .studio .dot{
     .our-team .cards1 .bottom {
         flex-wrap: wrap;
         justify-content: center;
-        margin: 30px 0px 0px 10px;
+        margin: 30px 0px 0px 0px;
     }
 
     .our-team .cards1 .bottom .card {
         margin-right: 20px;
         margin-bottom: 50px;
+    }
+
+    .our-team .cards1 .bottom .card.even {
+        margin-right: 0;
     }
 
     .our-team .cards1 .top .employees .paradnik {

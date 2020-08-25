@@ -4936,13 +4936,16 @@ footer.employees-page-footer .studio .dot{
     }
 
     .first-session .first-session-wrapper {
-        max-width: 320px;
+        max-width: 320vw;
+        width: 100%;
         width: 97%;
         background: url('./../img/main-768px/first-session320px.png');
         margin-top: -98px;
         padding-top: 90px;
         padding-bottom: 303px;
+        background-position: center;
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .first-session .first-session-wrapper .left-side {

@@ -218,6 +218,10 @@ header.not-main .header-wrapper .logo img{
     margin-top: 24px;
 }
 
+.first-session .first-session-wrapper .left-side a{
+    text-decoration: none;
+}
+
 .first-session .first-session-wrapper .left-side .btn span{
     margin-top: 0;
     margin-right: 42px;
@@ -598,6 +602,7 @@ header.not-main .header-wrapper .logo img{
     margin: 0 auto;
     margin-top: 160px;
     padding-left: 147px;
+    z-index: 0;
 }
 
 .why-we span.title{
@@ -671,6 +676,7 @@ header.not-main .header-wrapper .logo img{
     display: flex;
     flex-direction: column;
     position: relative;
+    z-index: 1;
 }
 
 .why-we .second-block .img-block .line-border{
@@ -730,7 +736,7 @@ header.not-main .header-wrapper .logo img{
 .about-us{
     margin-top: -100px;
     background: #000000;
-    z-index: -2;
+    z-index: 0;
     position: relative;
 }
 
@@ -835,6 +841,10 @@ header.not-main .header-wrapper .logo img{
     color: #FFFFFF;
 }
 
+.about-us .about-us-wrapper .about-usCont .second-block .text-block a{
+    text-decoration: none;
+}
+
 .about-us .about-us-wrapper .about-usCont .second-block .text-block .btn{
     margin-top: 47px;
     display: flex;
@@ -846,6 +856,7 @@ header.not-main .header-wrapper .logo img{
     line-height: 34px;
     letter-spacing: 0.02em;
     color: #FE0000;
+    z-index: 100;
 }
 
 .about-us .about-us-wrapper .about-usCont .second-block .text-block .btn svg{
@@ -2516,6 +2527,11 @@ footer.directionsPageFooter{
     margin-bottom: 0;
 }
 
+.contacts .adresses-block .map {
+    position: relative;
+    width: 825px;
+    height: 489px;
+}
 
 
 
@@ -2710,6 +2726,113 @@ footer.employees-page-footer .studio span{
 
 footer.employees-page-footer .studio .dot{
     background: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* _____FEEDBACK-FORM________________________ */
+
+.feedback-form{
+    margin: 40px 0 0;
+}
+
+.feedback-form .feedback-form-wrapper{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.feedback-form .feedback-form-wrapper form span select{
+    width: 450px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+}
+
+.feedback-form .feedback-form-wrapper form span select:hover{
+    border: 2px solid rgb(40, 138, 56);
+}
+
+.feedback-form .feedback-form-wrapper form span select option{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.feedback-form .feedback-form-wrapper p.title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.feedback-form .feedback-form-wrapper p.callBack{
+    margin-bottom: 20px;
+}
+
+.feedback-form .feedback-form-wrapper p.necessarily{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.feedback-form .feedback-form-wrapper p.choose{
+    margin: 25px 0 10px;
+}
+
+.feedback-form .feedback-form-wrapper p.choose span.redStar{
+    color: red;
+}
+
+.feedback-form .feedback-form-wrapper input[type='text']{
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.feedback-form .feedback-form-wrapper p.law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.feedback-form .feedback-form-wrapper p.law a{
+    color: #000;
+    margin-left: 5px;
+}
+
+.feedback-form .feedback-form-wrapper input[type='checkbox']{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.feedback-form .feedback-form-wrapper input[type="submit"]{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 20px;
+    outline: none;
 }
 
 

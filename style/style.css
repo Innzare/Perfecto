@@ -2558,6 +2558,7 @@ header.not-main .header-wrapper .personal .employee-page-num {
 .employee-info{
     background: #000;
     color: #fff;
+    margin-top: -1px;
 }
 
 .employee-info .employees-wrapper{
@@ -3043,6 +3044,7 @@ footer.employees-page-footer .studio .dot{
 
     header.not-main .header-wrapper .head-menu-list {
         height: 350px;
+        z-index: 1;
     }
 
     header.not-main .header-wrapper{
@@ -4938,7 +4940,6 @@ footer.employees-page-footer .studio .dot{
     .first-session .first-session-wrapper {
         max-width: 320vw;
         width: 100%;
-        width: 97%;
         background: url('./../img/main-768px/first-session320px.png');
         margin-top: -98px;
         padding-top: 90px;
@@ -5842,9 +5843,21 @@ footer.studyPlan{
 }
 
 .variants span.title {
+    font-size: 32px;
+    line-height: 37px;
+    margin-left: 20px;
+}
+
+.variants .hip-hop .text-block span.hip-hopTitle {
     font-size: 14px;
     line-height: 16px;
-    margin-left: 20px;
+    margin-bottom: 17px;
+}
+
+.variants .mini .text-block span.miniTitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 17px;
 }
 
 .variants .dance-show .img-block .line-border {
@@ -6302,6 +6315,45 @@ footer.studyPlan{
     margin-bottom: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feedback-form .feedback-form-wrapper {
+    max-width: 320px;
+}
+
+.feedback-form .feedback-form-wrapper form span select {
+    width: 300px;
+}
+
+.feedback-form .feedback-form-wrapper input[type='text'] {
+    width: 250px;
+    height: 30px;
+}
+
+.feedback-form .feedback-form-wrapper input[type='checkbox'] {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.feedback-form .feedback-form-wrapper p.law a {
+    margin-top: 10px;
+}
+
+.feedback-form .feedback-form-wrapper p.law{
+    flex-wrap: wrap;
+}
 
 
 

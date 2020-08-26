@@ -4802,6 +4802,76 @@ footer.employees-page-footer .studio .dot{
 
 
 
+.contacts {
+    max-width: 768px;
+    width: 97%;
+    margin: 80px auto 0;
+}
+
+.contacts .social-contacts img {
+    display: none;
+}
+
+.contacts .social-contacts .line-border {
+    display: none;
+}
+
+.contacts .social-contacts {
+    justify-content: center;
+}
+
+.contacts span.title {
+    font-size: 70px;
+    line-height: 82px;
+    font-weight: 900;
+    text-shadow: 
+            -0   -1px 0   #FE0000,
+             0   -1px 0   #FE0000,
+            -0    1px 0   #FE0000,
+             0    1px 0   #FE0000,
+            -1px -0   0   #FE0000,
+             1px -0   0   #FE0000,
+            -1px  0   0   #FE0000,
+             1px  0   0   #FE0000,
+            -1px -1px 0   #FE0000,
+             1px -1px 0   #FE0000,
+            -1px  1px 0   #FE0000,
+             1px  1px 0   #FE0000,
+            -1px -1px 0   #FE0000,
+             1px -1px 0   #FE0000,
+            -1px  1px 0   #FE0000,
+             1px  1px 0   #FE0000;
+}
+
+.contacts .social-contacts .social-block {
+    margin-top: 0;
+}
+
+.contacts .adresses-block .adresses {
+    order: 1;
+}
+
+.contacts .adresses-block {
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 105px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts .adresses-block .adresses {
+    margin: 60px auto 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5343,8 +5413,8 @@ footer.employees-page-footer .studio .dot{
 
 
     .adresses {
-        max-width: 320px;
-        width: 97%;
+        max-width: 320vw;
+        width: 100%;
         margin-top: 50px;
     }
 
@@ -5354,10 +5424,7 @@ footer.employees-page-footer .studio .dot{
     }
 
     .adresses .adresses-cont .text-block {
-        margin-right: 0px;
-        margin-top: 0;
-        margin-bottom: 30px;
-        margin-left: 20px;
+        margin: 0 auto;
         width: 269px;
     }
 
@@ -5368,7 +5435,7 @@ footer.employees-page-footer .studio .dot{
     .adresses span.title {
         font-size: 32px;
         line-height: 37px;
-        margin-left: 30px;
+        margin-left: 70px;
     }
 
     .adresses .adresses-cont .map .line-border {
@@ -5376,8 +5443,9 @@ footer.employees-page-footer .studio .dot{
     }
 
     .adresses .adresses-cont .map {
-        width: 320px;
-        height: 190px;
+        width: 100%;
+        height: none;
+        margin-top: 30px;
     }
 
 
@@ -6231,14 +6299,15 @@ footer.studyPlan{
 /* ____CONTACTS________________________________ */
 
 .contacts {
-    max-width: 320px;
+    max-width: 320vw;
+    width: 100%;
     margin-top: 20px;
 }
 
 .contacts span.title {
     font-size: 70px;
     line-height: 82px;
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 32px;
     line-height: 37px;
     text-shadow: 
@@ -6271,8 +6340,7 @@ footer.studyPlan{
 }
 
 .contacts .social-contacts .social-block {
-    margin-top: 40px;
-    margin-left: 57px;
+    margin: 40px auto 0;
 }
 
 .contacts .social-contacts .social-block .soc ul li {
@@ -6295,11 +6363,11 @@ footer.studyPlan{
 .contacts .adresses-block .adresses{
     order: 1;
     width: 213px;
-    margin-left: 52px;
+    margin: 30px auto 0;
 }
 
 .contacts .adresses-block .map{
-    width: 320px;
+    width: 100%;
     height: 189px;
     margin-top: 50px;
 }

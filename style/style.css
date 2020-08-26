@@ -4416,6 +4416,10 @@ footer.employees-page-footer .studio .dot{
     margin-top: 64px;
 }
 
+.variants .dance-show .img-block {
+    margin-right: 30px;
+}
+
 .variants .dance-show .img-block .line-border {
     width: 437px;
     height: 241px;
@@ -4451,6 +4455,7 @@ footer.employees-page-footer .studio .dot{
 
 .variants .dance-show .img-block .sign-up .sign-up-text {
     width: 276px;
+    margin-right: 25px;
 }
 
 .variants .dance-show .text-block span.dance-showTitle {
@@ -4574,6 +4579,7 @@ footer.employees-page-footer .studio .dot{
 
 .variants .hip-hop .img-block .sign-up .sign-up-text {
     width: 276px;
+    margin-right: 25px;
 }
 
 .variants .hip-hop .text-block span.hip-hopTitle {
@@ -4706,7 +4712,7 @@ footer.employees-page-footer .studio .dot{
 
 .variants .mini .img-block .sign-up .sign-up-text {
     width: 276px;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 .variants .mini .text-block span.miniTitle {
@@ -5040,7 +5046,7 @@ footer.employees-page-footer .studio .dot{
 
     .directions{
         margin-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     } 
 
     .directions .directions-wrapper{
@@ -5104,10 +5110,6 @@ footer.employees-page-footer .studio .dot{
 
     .directions .directions-wrapper .direction-vars .mini{
         width: 232px;
-    }
-
-    .directions .directions-wrapper .direction-vars .card {
-        margin-bottom: 0px;
     }
 
 

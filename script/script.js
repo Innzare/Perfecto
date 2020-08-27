@@ -5,7 +5,8 @@ $('.feedback .slider').slick({
     adaptiveHeight: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
+    infinite: true,
     responsive: [
         {
             breakpoint: 1824,

@@ -107,6 +107,11 @@ header .header-wrapper .personal{
     align-items: center;
 }
 
+header .header-wrapper .personal a{
+    display: flex;
+    text-decoration: none;
+}
+
 header .header-wrapper .personal span{
     font-family: 'Roboto';
     font-style: normal;
@@ -124,7 +129,7 @@ header .header-wrapper .personal span:hover{
     padding-top: 2px;
 }
 
-header .header-wrapper .personal .num{
+header .header-wrapper .personal .num {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
@@ -132,6 +137,8 @@ header .header-wrapper .personal .num{
     line-height: 22px;
     color: #FE0000;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 header .logo{
@@ -427,6 +434,18 @@ header.not-main .header-wrapper .logo img{
     line-height: 21px;
     color: #000000;
     margin-top: 15px;
+}
+
+.directions .directions-wrapper .direction-vars .dance-show a{
+    text-decoration: none;
+}
+
+.directions .directions-wrapper .direction-vars .hip-hop a{
+    text-decoration: none;
+}
+
+.directions .directions-wrapper .direction-vars .mini a{
+    text-decoration: none;
 }
 
 
@@ -915,6 +934,12 @@ header.not-main .header-wrapper .logo img{
     margin-top: 62px;
 }
 
+.slider{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* Слайдер */
 .slick-slider{}
 /* Слайдер запущен */
@@ -928,10 +953,12 @@ header.not-main .header-wrapper .logo img{
 /* Лента слайдов */
 .slider .slick-track{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 /* Слайд */
-.slick-slide{}
+.slider .slick-slide img{
+    margin-right: 20px;
+}
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
@@ -942,15 +969,36 @@ header.not-main .header-wrapper .logo img{
 .slick-slide.slick-cloned{}
 /* Стрелка */
 .slider .slick-arrow{
-    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.slider .slick-arrow.slick-prev:hover{
+    background-color: rgb(209, 207, 207);
+    border-radius: 10%;
+}
+
+.slider .slick-arrow.slick-next:hover{
+    background-color: rgb(209, 207, 207);
+    border-radius: 10%;
 }
 /* Стрелка влево */
 .slider .slick-arrow.slick-prev{
-    display: none;
+    left: -10px;
+    background: url('./../img/feedback/prev-btn.svg') 0 0 / 100% no-repeat;
 }
 /* Стрелка вправо */
 .slider .slick-arrow.slick-next{
-    display: none;
+    right: -10px;
+    background: url('./../img/feedback/next-btn.svg') 0 0 / 100% no-repeat;
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled{}
@@ -1175,6 +1223,10 @@ footer .studio .dot{
     background: #000000;
     margin: 0 18px;
     border-radius: 50%;
+}
+
+footer .social span.number:hover {
+    color: red;
 }
 
 
@@ -3340,14 +3392,17 @@ footer.employees-page-footer .studio .dot{
 
     .our-achievement .our-achievement-wrapper .logos img.ido{
         width: 86.92px;
+        height: 58.87px;
     }
 
     .our-achievement .our-achievement-wrapper .logos img.samson{
         width: 111.68px;
+        height: 60.52px;
     }
 
     .our-achievement .our-achievement-wrapper .logos img.opto{
         width: 97.38px;
+        height: 65.47px;
     }
 
 
@@ -5398,7 +5453,7 @@ footer.employees-page-footer .studio .dot{
 
     .feedback .slider {
         margin-top: 30px;
-        padding-left: 20px;
+        padding-left: 35px;
     }
 
     .feedback .slider img {

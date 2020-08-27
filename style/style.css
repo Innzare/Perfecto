@@ -2906,7 +2906,7 @@ footer.employees-page-footer .studio .dot{
 
 /* ___________MEDIA_____________________________________________________ */
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1040px){
     header {
         padding-top: 23px;
     }

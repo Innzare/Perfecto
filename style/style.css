@@ -2517,6 +2517,11 @@ footer.directionsPageFooter{
     margin-bottom: 28px;
 }
 
+.contacts .social-contacts .social-block ul li a{
+    text-decoration: none;
+    color: #FE0000;
+}
+
 .contacts .social-contacts .social-block .soc ul li{
     font-family: 'Roboto';
     font-style: normal;
@@ -2987,6 +2992,7 @@ footer.employees-page-footer .studio .dot{
     header.not-main .header-wrapper .head-menu-list ul{
         display: flex;
         flex-direction: column;
+        margin-top: 30px;
     }
 
     header.not-main .header-wrapper .head-menu-list ul li{
@@ -4924,6 +4930,9 @@ footer.employees-page-footer .studio .dot{
     margin: 60px auto 0;
 }
 
+.employee-info .employees-wrapper .employee-cont img.employee-page-icon {
+    display: none;
+}
 
 
 

@@ -1079,7 +1079,7 @@ header.not-main .header-wrapper .logo img{
 }
 
 .adresses .adresses-cont .text-block{
-    margin-top: 60px;
+    margin-top: 20px;
     margin-right: 144px;
     width: 320px;
 }
@@ -1152,7 +1152,7 @@ header.not-main .header-wrapper .logo img{
 footer{
     width: 590px;
     margin: 0 auto 60px;
-    margin-top: 168px;
+    margin-top: 75px;
 }
 
 footer .social{
@@ -1396,6 +1396,15 @@ header.not-main .header-wrapper .logo{
     line-height: 21px;
     color: #000000;
     margin-bottom: 15px;
+}
+
+.our-team .cards p.filial{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4C4C4C;
 }
 
 .our-team .cards a{
@@ -4069,6 +4078,11 @@ footer.employees-page-footer .studio .dot{
         margin-bottom: 10px;
     }
 
+    .our-team .cards p.filial {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
     .our-team .cards a {
         font-size: 10px;
         line-height: 12px;
@@ -5294,6 +5308,8 @@ footer.employees-page-footer .studio .dot{
 
     .our-pluses .second-block img {
         width: 100%;
+        height: 100%;
+        margin-bottom: 15px;
     }
 
 
